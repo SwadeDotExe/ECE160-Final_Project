@@ -1,6 +1,8 @@
 # ECE160-Final_Project
 ECE160 Final Project
+
 Written By: Swade, Brendan, and Justin
+
 Last Updated: 2/20/2021
 
 This code contains all the information required to complete the final project
@@ -12,6 +14,7 @@ The robot has two main modes of operation:
 
    Manual: Reads the user input from the PlayStation controller and moves the
             robot according to the input.
+            
    Automatic: Firstly, spins roughly 180 degrees until a line is detected. Then,
               Reads the 3 line following sensors and makes judgements on what
               motion is needed to stay following the line. Continues until the
