@@ -1,0 +1,13 @@
+// ControllerSwitch Function
+
+void ControlSwitch() {
+  if (ActiveController == 0) {
+    ActiveController = 1;
+    digitalWrite(BlueLED, LOW);
+    digitalWrite(GreenLED, HIGH);
+  }
+  else
+    ActiveController = 0;
+  digitalWrite(BlueLED, HIGH);
+  digitalWrite(GreenLED, LOW);
+}

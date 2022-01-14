@@ -1,0 +1,23 @@
+int RedLED = A3;
+int GreenLED = A4;
+int BlueLED = A5;
+int wait = 200;
+int power = 255;
+
+void setup() {
+  pinMode(RedLED, OUTPUT);
+  pinMode(GreenLED, OUTPUT);
+  pinMode(BlueLED, OUTPUT);
+}
+
+void loop() {
+  analogWrite(RedLED, power);
+  delay(wait);
+  analogWrite(RedLED, 0);
+  analogWrite(GreenLED, power);
+  delay(wait);
+  analogWrite(GreenLED, 0);
+  analogWrite(BlueLED, power);
+  delay(wait);
+  analogWrite(BlueLED, 0);
+}

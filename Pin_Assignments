@@ -1,0 +1,29 @@
+## Ground Line Reader
+Out1 (Left) ---- Pin A0
+Out2 (Middle) ---- Pin A1
+Out3 (Right) ---- Pin A2
+
+
+## Grabber Arms
+Servo ---- Pin 11
+
+## Main Drive Motors
+Left Motor  ---- Pin 10
+Right Motor ---- Pin 12
+
+## Playstation Controller Receiver
+Clock      ---- Pin 9
+Command    ---- Pin 5
+Attention  ---- Pin 6
+Data       ---- Pin 8
+
+## Sonar Sensors
+
+Front ---- Pin 2
+Left ----  Pin 3
+Right ----  Pin 4
+
+## LEDs
+Red ---- Pin A3
+Green ---- Pin A4
+Blue ---- Pin A5

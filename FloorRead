@@ -1,0 +1,6 @@
+void FloorRead() {
+  left_boi = analogRead(left_sensor);
+  middle_boi = analogRead(middle_sensor);
+  right_boi = analogRead(right_sensor);
+
+}
